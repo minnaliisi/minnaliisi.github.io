@@ -86,8 +86,8 @@ html {
     }
 
     p.bottom {
-      font-size: 0.8em;
-      font-family: 'Rufina', serif;
+      font-size: 0.9em;
+      font-family: 'Quicksand', sans-serif;
       color: rgb(0, 0, 0);
       padding: 30px;
       line-height: 1.5;
@@ -96,7 +96,7 @@ html {
 
     #where {
       font-size: 1em;
-      font-family: 'Rufina', serif;
+      font-family: 'Quicksand', sans-serif;
       color: rgb(0, 0, 0);
       line-height: 1.5;
       background-color: rgb(255, 255, 255);
