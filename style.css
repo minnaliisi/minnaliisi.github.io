@@ -128,7 +128,16 @@ html {
       height: 30px;
     }
 
+    footer {
+      padding: 10px;
+    }
+
+    #copyright {
+      display: inline;
+      font-family: 'Quicksand';
+    }
+
     #farewell {
-      text-align: center;
+      display: inline;
       font-family: 'Josefin Sans';
     }
