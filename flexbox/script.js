@@ -1,4 +1,4 @@
-/*const panels = document.querySelectorAll('.panel');
+const panels = document.querySelectorAll('.panel');
 
 function toggleOpen() {
   this.classList.toggle('open');
@@ -12,11 +12,3 @@ function toggleActive(e) {
 
 panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
-*/
-
-$(document).ready(function() {
-  $(".panel").click(function() {
-    $(this).addClass('open').show('open-active','backgroundcol');
-  });
-  console.log('hello');
-});
