@@ -1,3 +1,3 @@
 # minnaliisi.github.io
 
-- [Flexbox](/flexbox/)
+- [Flexbox](https://minnaliisi.github.io/flexbox/)
