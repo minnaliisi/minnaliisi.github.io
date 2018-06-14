@@ -1,6 +1,6 @@
 # minnaliisi.github.io
 
-Selection of my little projects, bits and other experiments
+Selection of my projects, bits and other experiments
 
 - [Hello there! Javascript and Flexbox](https://minnaliisi.github.io/flexbox+javascript/)
 - [the Javascript Button](https://minnaliisi.github.io/the-pattern-button/)
