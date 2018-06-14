@@ -1,0 +1,235 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  background-color: #F6E1D4;
+}
+
+header {
+  height: 55px;
+  background-color: #F94A37;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 20px 0px 0px;
+    float: right;
+    position: fixed;
+    width: 95%;
+  }
+
+#social-media li {
+    margin: auto;
+    display: inline-block;
+    padding: 5px;
+    float: right;
+}
+
+#social-media img {
+  height: 30px;
+}
+
+#toolbar {
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    background-color: #FEA594;
+    margin-top: 55px;
+    position: fixed;
+    width: 100%;
+}
+
+#toolbar ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+#toolbar li {
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+.title {
+  text-align: center;
+  height: 200px;
+  position: relative;
+}
+
+h1 {
+  color: red;
+  display: inline-block;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 130px;
+  text-shadow: 1.5px 1px black;
+  font-size: 4em;
+}
+
+.projects {
+  width: 1200px;
+  margin: auto;
+}
+
+#fashion, #wul, #illustration, #branding{
+  background-color: white;
+  margin-bottom: 100px;
+  padding: 50px;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-width: 5px;
+  border-color: #F6E1D4;
+}
+
+.description {
+  text-align: center;
+  margin: 10px;
+}
+
+.image-wrapper-1 {
+  width: 100%;
+}
+
+#img1 {
+  margin: auto;
+  width: 100%;
+}
+
+.two-column {
+  height: 500px;
+  width: 100%;
+}
+
+.col1 {
+  float: left;
+  height: 100%;
+  width: 30%;
+  padding: 5px 5px 0 0;
+}
+
+.image-wrapper-3 {
+  height: 100%;
+}
+
+#img3 {
+  height: 100%;
+}
+
+.col2 {
+  display: inline-block;
+  height: 100%;
+  width: 31%;
+  padding: 5px 0 0 5px;
+}
+
+.image-wrapper-2 {
+  height: 100%;
+}
+
+#img2 {
+  height: 100%;
+}
+
+#wul img {
+  width: 100%;
+}
+
+.col3 {
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+
+.col4 {
+  width: 20%;
+  float: right;
+}
+
+.four-table {
+  padding-top: 20px;
+}
+
+.col5 {
+  width: 50%;
+  float: left;
+}
+
+.image-wrapper-4 {
+  margin: 5px 5px 0 0;
+}
+
+.col6 {
+  width: 50%;
+  float: right;
+}
+
+.image-wrapper-5 {
+  margin: 5px 0 0 5px;
+}
+
+#illustration img {
+  width: 100%;
+}
+
+.three-column {
+  column-count: 3;
+}
+
+.overlap {
+  position: relative;
+}
+
+.parent {
+  width: 70%;
+}
+
+.top-image {
+  position: absolute;
+  width: 20%;
+  left: 67%;
+  top: 41%;
+}
+
+.about-parent {
+  position: relative;
+  height: 300px;
+}
+
+h3 {
+  position: absolute;
+  left: 10%;
+}
+
+.overlap-left {
+  position: relative;
+  left: 12%;
+  top: 14%;
+}
+
+.bio {
+  background-color: rgba(249, 53, 21, 0.72);
+  position: relative;
+  width: 73%;
+  float: right;
+  padding: 20px 20px 100px 100px;
+}
+
+footer {
+  height: 70px;
+  background-color: #F94A37;
+}
