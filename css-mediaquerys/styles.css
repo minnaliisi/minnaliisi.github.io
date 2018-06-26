@@ -1,0 +1,186 @@
+body {
+    font-family: 'Istok Web', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased; /*to fix white text on dark bg*/
+    background: url(http://nynnyt.org/wp-content/uploads/2017/04/Blue-825x510.jpg);
+    color: #2c3e50;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.header_img {
+    width: 50px; /**/
+    height: 50px; /**/
+    margin-right: 20px;
+    border-radius: 50%;
+    color: yellow;
+}
+
+.header_title {
+    font-size: 26px; /**/
+}
+
+.main {
+}
+
+.figure {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto 15px;
+}
+
+.figure-second {
+    max-width: 300px;
+    margin: 0 0 15px 15px;
+}
+
+.figure_img {
+    display: block; /* to remove space from bottom caused by inline */
+    width: 100%;
+}
+
+.about {
+  display: inline-block;
+  padding: 10px;
+}
+
+.main_text {
+    margin-bottom: 1em;
+    line-height: 1.4em;
+    background-color: white;
+    padding: 5px;
+}
+
+.nynifesto {
+  background-color: white;
+  padding: 10px;
+}
+
+.nynifesto-text {
+  background-color: red;
+
+}
+
+.main-quote {
+    clear: both;
+    margin: 30px 0;
+    padding: 0 20px;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #5d5f59;
+    border-left: 4px solid #f2f53d;
+    background-color: #e8e8e8;
+}
+
+.sidebar {
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sidebarlist-title {
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #f57341;
+}
+
+.sidebarlist {
+    background-color: #ecf0f1;
+    padding: 20px 20px 10px;
+}
+
+.sidebarlist-item {
+    margin-bottom: 10px;
+}
+
+.sidebarlist-link {
+    color: #e74c3c;
+    text-decoration: none;
+    line-height: 1.4em;
+}
+
+.sidebarlist-link:hover {
+    text-decoration: underline;
+    color: #c0392b;
+}
+
+.footer {
+    padding: 30px;
+    background-color: white;
+}
+
+.footer_text {
+
+}
+
+.footer_link {
+    color: #e74c3c;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+    color: #c0392b;
+}
+
+.main_text-em {
+    font-style: italic;
+    margin-bottom: 1.4em;
+}
+
+/*when screen is wider than 500px*/
+@media (min-width: 500px) {
+  .figure {
+    float: left;
+    margin: 0 15px 10px 0;
+  }
+  .figure-second {
+    float: right;
+  }
+  .about {
+    padding: 30px;
+  }
+  .nynifesto {
+    padding: 30px;
+  }
+}
+
+/*tablet size*/
+@media (min-width: 620px) {
+  .header {
+    padding: 20px 2;
+  }
+  .header_img {
+    width: 100px;
+    height: 100px;
+  }
+  .about {
+    padding: 45px;
+  }
+  .nynifesto {
+    padding: 45px;
+  }
+}
+/*desktop size*/
+@media (min-width: 860px) {
+  .main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+}
