@@ -5,9 +5,9 @@ $(document).ready(function() {
     url: url,
     dataType: 'json'
   }).done(function(data) {
-    console.log(data[0]);
+    console.log(data[0]); //first part of array contains all required data
     var image = data[0];
-    var date = JSON.stringify(image.identifier);
+    var date = JSON.stringify(image.identifier); //grab the date from the identifier code to be placed in the img file path
     var year = date.substr(1, 4);
     var month = date.substr(5, 2);
     var day = date.substr(7, 2);

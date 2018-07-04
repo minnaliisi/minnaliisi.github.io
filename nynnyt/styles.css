@@ -178,9 +178,23 @@ body {
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  .main_text {
+    padding: 25px;
+    }
+
+  figure.figure {
+    padding: 0 25px 10px 0;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
   .sidebar {
     width: 250px;
     flex-shrink: 0;
     margin-left: 20px;
+    padding: 45px 45px 0 0;
   }
 }
