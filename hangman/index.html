@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Hangman</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <div id="container">
+      <div class="board">
+        <button id="new-game" onclick="startGame()">Start a new game</button>
+        <div class="hangman-word">
+          <!-- display returned hangman string -->
+        </div>
+        <div class="remaining-guesses">
+          <span class="remaining">7 <!-- don't forget to update! --> </span> guesses left
+        </div>
+
+        <div class="console">
+          <input type="hidden" class="token"> </input>
+          <input type="text" maxlength=1 class="letter"> </input>
+          <button id="guess" onclick="makeGuess()">Guess</button>
+        </div>
+        <div class="attempts"></div>
+      </div>
+      <br/>
+
+    </div>
+    <footer>
+
+    </footer>
+  </body>
+</html>
