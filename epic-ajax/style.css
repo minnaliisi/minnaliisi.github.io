@@ -29,7 +29,14 @@ header {
   margin: 50px auto;
 }
 
+h1 {
+  font-size: 2.5em;
+  color: white;
+}
+
 h2 {
   padding: 5px;
   color: white;
+  margin: 0;
+  font-size: 1.2em;
 }
