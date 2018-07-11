@@ -5,11 +5,11 @@ canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 
-var x = Math.random() * innerWidth;
-var y = Math.random() * innerHeight;
+var radius = 60;
+var x = Math.random() * (innerWidth - radius * 2) + radius;
+var y = Math.random() * (innerHeight - radius * 2) + radius;
 var dx = (Math.random() - 0.5) * 10;
 var dy = (Math.random() - 0.5) * 10;
-var radius = 60;
 
 
 function animate() {
