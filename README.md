@@ -2,8 +2,9 @@
 
 Selection of my projects, bits and other experiments
 
-- [AJAX project using Nasa EPIC API data to view a daily image of the Earth from space - jQuery/AJAX](https://minnaliisi.github.io/epic-ajax/)
-- [Hangman using an existing API to handle game logic - jQuery/AJAX](https://minnaliisi.github.io/hangman/)
+- [Real time weather app using Dark sky and Google Maps API's - JavaScript](https://invincible-tray.glitch.me/)
+- [AJAX project using Nasa EPIC API data to view a daily image of the Earth from space - jQuery](https://minnaliisi.github.io/epic-ajax/)
+- [Hangman using an existing API to handle game logic - jQuery](https://minnaliisi.github.io/hangman/)
 - [Spyhole - Canvas](https://minnaliisi.github.io/canvas-spyhole/)
 - [Playing around with responsive website for feminist curators 'Nynnyt' - HTML5/CSS](https://minnaliisi.github.io/nynnyt/)
 - [Hello there! Javascript and Flexbox](https://minnaliisi.github.io/flexbox+javascript/)
